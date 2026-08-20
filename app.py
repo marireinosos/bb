@@ -18,5 +18,8 @@ else:
     # Mensaje de error amigable por si la imagen no carga
     st.error(f"No se pudo encontrar la imagen: {image_path}")
     st.warning("Recuerda verificar que el archivo 'lanaDelRey.jpg' esté subido en tu repositorio de GitHub en la misma carpeta que este código.")
-texto = st.text_imput('Escribe algo', 'Este es mi texto')
-st.Write ('Holi bb jajaja´,texto')
+# 1. Corregido: text_input con "n"
+texto = st.text_input('Escribe algo', 'Este es mi texto')
+
+# 2. Corregido: st.write en minúsculas y separamos el texto de la variable
+st.write('Holi bb jajaja', texto)
