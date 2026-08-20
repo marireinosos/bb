@@ -18,3 +18,5 @@ else:
     # Mensaje de error amigable por si la imagen no carga
     st.error(f"No se pudo encontrar la imagen: {image_path}")
     st.warning("Recuerda verificar que el archivo 'lanaDelRey.jpg' esté subido en tu repositorio de GitHub en la misma carpeta que este código.")
+texto = st.text_imput('Escribe algo', 'Este es mi texto')
+st.Write ('Holi bb jajaja´,texto')
