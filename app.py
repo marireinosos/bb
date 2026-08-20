@@ -22,4 +22,4 @@ else:
 texto = st.text_input('Escribe algo', 'Este es mi texto')
 
 # 2. Corregido: st.write en minúsculas y separamos el texto de la variable
-st.write('Holi bb jajaja', texto)
+st.write('El tedxto escrito es', texto)
